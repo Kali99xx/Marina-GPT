@@ -1,7 +1,11 @@
 # M.A.R.I.N.A GPT AI
 ![M.A.R.I.N.A](20251201_031248.jpg)
 
-**M.A.R.I.N.A GPT** is designed to provide powerful, unrestricted, and seamless AI-driven conversations, pushing the boundaries of what is possible with natural language processing.
+**M.A.R.I.N.A GPT AI** is designed to provide powerful, unrestricted, and seamless AI-driven conversations, pushing the boundaries of what is possible with natural language processing.
+
+**M.A.R.I.N.A GPT AI** was created with the vision of assisting penetration testing needs and serving as an effective learning tool in the world of cybersecurity.
+​As an open-source project, this tool is wide open for development and contributions from the community. Its purpose is purely educational.
+​With this, I affirm that the use of **M.A.R.I.N.A GPT** AI for criminal acts or offenses constitutes a violation of its core ethics and vision, and therefore, I am not responsible for the consequences of such actions.
 
 ## ✨ Features
 
