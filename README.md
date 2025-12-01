@@ -45,4 +45,3 @@ Created by [Kirozaku](https://github.com/Kirozaku)
 My money is not enough to buy a laptop, help me with bitcoin every satoshi helps!
 
 **Bitcoin Wallet Address: 1N1rMC95mwYqpQNCWC5TQmZJGdpwf2APsS**
-
