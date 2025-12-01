@@ -37,11 +37,13 @@ Run the tool from the terminal:
 python3 marina.py
 ```
 
-## 💻 Screenshot
+## 💻 Screenshot M.A.R.I.N.A
 
 ![screenshot1](Screenshot_20251201-032135.jpg)
 ![screenshot2](Screenshot_20251201-032144.jpg)
 
+##💻 Screenshot C.H.E.Y.Y
+![Screenshot1](img/Screenshot_20251201-230154.jpg)
 
 Created by [Kirozaku](https://github.com/Kirozaku)
 
