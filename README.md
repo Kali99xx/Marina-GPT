@@ -1,4 +1,4 @@
-# M.A.R.I.N.A GPT
+# M.A.R.I.N.A GPT AI
 ![M.A.R.I.N.A](20251201_031248.jpg)
 
 **M.A.R.I.N.A GPT** is designed to provide powerful, unrestricted, and seamless AI-driven conversations, pushing the boundaries of what is possible with natural language processing.
