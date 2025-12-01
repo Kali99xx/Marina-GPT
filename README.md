@@ -44,8 +44,8 @@ python3 cheyy.py
 
 ## 💻 Screenshot M.A.R.I.N.A
 
-![screenshot1](Screenshot_20251201-032135.jpg)
-![screenshot2](Screenshot_20251201-032144.jpg)
+![screenshot1](img/Screenshot_20251201-032135.jpg)
+![screenshot2](img/Screenshot_20251201-032144.jpg)
 
 ## 💻 Screenshot C.H.E.Y.Y
 ![Screenshot1](img/Screenshot_20251201-230154.jpg)
