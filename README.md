@@ -1,18 +1,24 @@
 # M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI
 ![M.A.R.I.N.A](img/20251201_233014.jpg)
 
-**M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** is designed to provide powerful, unrestricted, and seamless AI-driven conversations, pushing the boundaries of what is possible with natural language processing.
+**M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** is designed to deliver powerful, unrestricted, and seamless AI-driven conversations—pushing the limits of what is possible with natural language processing.
 
-**M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** was created with the vision of assisting penetration testing needs and serving as an effective learning tool in the world of cybersecurity.
-​As an open-source project, this tool is wide open for development and contributions from the community. Its purpose is purely educational.
-​With this, I affirm that the use of **M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** AI for criminal acts or offenses constitutes a violation of its core ethics and vision, and therefore, I am not responsible for the consequences of such actions.
+These tools were created with the vision of assisting penetration testing workflows and providing an effective learning platform in the field of cybersecurity.  
+As an open-source project, it welcomes development and contributions from the community.  
+This tool is strictly for educational purposes only.
+
+**Disclaimer:** Any use of **M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** for illegal activities goes against its core purpose and principles. I am not responsible for any misuse or consequences resulting from unauthorized actions.
+
+
 
 ## ✨ Features
 
-- **Powerful AI Conversations:** Get intelligent and context-aware answers to your queries.
-- **Unrestricted Framework:** A system prompt designed to bypass conventional AI limitations.
-- **Easy-to-Use CLI:** A clean and simple command-line interface for smooth interaction.
-- **Cross-Platform:** Tested and working on Kali Linux, Ubuntu, and Termux.
+- **Powerful AI Conversations:** Intelligent, context-aware responses.
+- **Unrestricted Framework:** System prompts designed to bypass common AI limitations.
+- **Simple CLI Interface:** Clean and easy-to-use terminal interface.
+- **Cross-Platform:** Works on Kali Linux, Ubuntu, and Termux.
+
+
 
 # 🛠️ Installation (Manual)
 
@@ -43,6 +49,7 @@ pip3 install readline
 ```
 
 
+
 # 🚀 Usage
 
 ## Run M.A.R.I.N.A (Termux & Linux)
@@ -62,6 +69,7 @@ python3 cheyy-linux.py
 ```bash
 python3 cheyy-termux.py
 ```
+
 
 
 # ⚡ Installation (Automatic)
@@ -93,6 +101,7 @@ Run:
 ```bash
 ./cheyy-termux
 ```
+
 
 
 # 🖥️ Linux Installation
@@ -127,16 +136,22 @@ Run:
 
 ## 💻 Screenshot M.A.R.I.N.A
 
-![screenshot1](img/Screenshot_20251201-032135.jpg)
+![screenshot1](img/Screenshot_20251201-032135.jpg)  
 ![screenshot2](img/Screenshot_20251201-032144.jpg)
 
 ## 💻 Screenshot C.H.E.Y.Y
-![Screenshot1](img/Screenshot_20251201-230154.jpg)
+
+![Screenshot1](img/Screenshot_20251201-230154.jpg)  
 ![Screenshot2](img/Screenshot_20251201-230247.jpg)
 
-Created by [Kirozaku](https://github.com/Kirozaku)
+
+
+Created by **[Kirozaku](https://github.com/Kirozaku)**
+
+
 
 ## ₿ Donate with Bitcoin
-My money is not enough to buy a laptop, help me with bitcoin every satoshi helps!
 
-**Bitcoin Wallet Address: 1N1rMC95mwYqpQNCWC5TQmZJGdpwf2APsS**
+My money is not enough to buy a laptop, every satoshi helps!
+
+**Bitcoin Wallet Address: `1N1rMC95mwYqpQNCWC5TQmZJGdpwf2APsS`**
