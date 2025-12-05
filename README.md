@@ -74,7 +74,7 @@ python3 cheyy-termux.py
 
 # ⚡ Installation (Automatic)
 
-# 📱 Termux Installation
+# 📱 Android Installation (Termux/kali-nethunter/andrax-android)
 
 ## Install M.A.R.I.N.A
 
@@ -104,7 +104,7 @@ Run:
 
 
 
-# 🖥️ Linux Installation
+# 🖥️ Linux Installation (Kali-Linux/Ubuntu/Debian)
 
 ## Install M.A.R.I.N.A
 
