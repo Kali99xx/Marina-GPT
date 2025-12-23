@@ -1,0 +1,135 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "node",
+      "args": ["./mcp-servers/filesystem.js"],
+      "env": {
+        "ALLOWED_DIRECTORIES": "/home/kali,/tmp",
+        "MAX_FILE_SIZE": "10485760"
+      },
+      "capabilities": ["tools", "resources"],
+      "description": "File system operations with security sandboxing"
+    },
+    "web-search": {
+      "command": "node",
+      "args": ["./mcp-servers/web-search.js"],
+      "env": {
+        "RATE_LIMIT": "10",
+        "CACHE_TTL": "3600"
+      },
+      "capabilities": ["tools"],
+      "description": "Real-time web search via DuckDuckGo API"
+    },
+    "code-executor": {
+      "command": "node",
+      "args": ["./mcp-servers/code-executor.js"],
+      "env": {
+        "TIMEOUT": "30",
+        "ALLOWED_LANGUAGES": "python,javascript,bash",
+        "SANDBOX_MODE": "true"
+      },
+      "capabilities": ["tools", "sampling"],
+      "description": "Safe code execution in sandboxed environment"
+    },
+    "database": {
+      "command": "node",
+      "args": ["./mcp-servers/database.js"],
+      "env": {
+        "DB_TYPE": "sqlite",
+        "DB_PATH": "/tmp/marina.db",
+        "READ_ONLY": "false"
+      },
+      "capabilities": ["tools", "resources"],
+      "description": "Database query and management"
+    },
+    "api-client": {
+      "command": "node",
+      "args": ["./mcp-servers/api-client.js"],
+      "env": {
+        "TIMEOUT": "30",
+        "FOLLOW_REDIRECTS": "true",
+        "MAX_RETRIES": "3"
+      },
+      "capabilities": ["tools"],
+      "description": "HTTP/REST/GraphQL API client"
+    },
+    "image-generator": {
+      "command": "node",
+      "args": ["./mcp-servers/image-generator.js"],
+      "env": {
+        "OUTPUT_DIR": "/tmp/marina-images",
+        "MAX_RESOLUTION": "1024x1024",
+        "FORMAT": "png"
+      },
+      "capabilities": ["tools"],
+      "description": "AI image generation via Gemini/Nano Banana"
+    },
+    "text-to-speech": {
+      "command": "node",
+      "args": ["./mcp-servers/tts.js"],
+      "env": {
+        "OUTPUT_DIR": "/tmp/marina-audio",
+        "VOICE": "alloy",
+        "FORMAT": "mp3"
+      },
+      "capabilities": ["tools"],
+      "description": "Text-to-speech synthesis"
+    },
+    "translator": {
+      "command": "node",
+      "args": ["./mcp-servers/translator.js"],
+      "env": {
+        "SUPPORTED_LANGUAGES": "en,es,fr,de,it,pt,ru,zh,ja,ko,ar,hi,id",
+        "CACHE_ENABLED": "true"
+      },
+      "capabilities": ["tools"],
+      "description": "Multi-language translation"
+    }
+  },
+  "performance": {
+    "caching": {
+      "enabled": true,
+      "strategy": "lru",
+      "ttl": 3600,
+      "max_size_mb": 100
+    },
+    "rate_limiting": {
+      "enabled": false,
+      "requests_per_minute": 999999,
+      "burst_size": 999999
+    },
+    "compression": {
+      "enabled": true,
+      "algorithm": "gzip",
+      "level": 6
+    },
+    "timeout": {
+      "connection": 10,
+      "request": 30,
+      "idle": 60
+    }
+  },
+  "security": {
+    "sandboxing": {
+      "enabled": true,
+      "allowedDirectories": ["/home/kali", "/tmp"],
+      "deniedCommands": ["rm -rf /", "dd", "mkfs"],
+      "maxProcesses": 5
+    },
+    "authentication": {
+      "required": false,
+      "method": "oauth2.1"
+    },
+    "encryption": {
+      "transport": "tls",
+      "minVersion": "1.2"
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": "/tmp/marina-mcp.log",
+    "maxSize": "10MB",
+    "rotation": "daily",
+    "retention": 7
+  }
+}

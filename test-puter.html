@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puter.js Test</title>
+    <script src="https://js.puter.com/v2/"></script>
+    <style>
+        body { 
+            background: #000; 
+            color: #0f0; 
+            font-family: monospace; 
+            padding: 20px; 
+        }
+        #output { 
+            white-space: pre-wrap; 
+            border: 1px solid #0f0; 
+            padding: 10px; 
+            margin-top: 10px; 
+        }
+        button { 
+            background: #0f0; 
+            color: #000; 
+            padding: 10px 20px; 
+            border: none; 
+            cursor: pointer; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 Puter.js API Test</h1>
+    <button onclick="testAPI()">Test OpenRouter Dolphin Mistral (Uncensored)</button>
+    <div id="output"></div>
+
+    <script>
+        async function testAPI() {
+            const output = document.getElementById('output');
+            output.textContent = 'Testing API call...\n\n';
+            
+            try {
+                console.log('Starting API test...');
+                
+                const response = await puter.ai.chat(
+                    "Say 'MARINA IS ONLINE' if you can read this",
+                    {
+                        model: 'openrouter:cognitivecomputations/dolphin-mistral-24b-venice-edition:free',
+                        temperature: 0.7,
+                        stream: true
+                    }
+                );
+                
+                console.log('Response received:', response);
+                output.textContent += 'Response streaming:\n';
+                
+                for await (const part of response) {
+                    console.log('Part:', part);
+                    if (part?.text) {
+                        output.textContent += part.text;
+                    }
+                }
+                
+                output.textContent += '\n\n✅ SUCCESS!';
+                
+            } catch (error) {
+                console.error('Error:', error);
+                output.textContent += `❌ ERROR: ${error.message}\n\n`;
+                output.textContent += `Stack: ${error.stack}`;
+            }
+        }
+    </script>
+</body>
+</html>

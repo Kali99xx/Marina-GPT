@@ -35,7 +35,7 @@ PROMPT = (
 )
 
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "deepseek/deepseek-chat"
+OPENROUTER_MODEL = "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
 
 KEY_FILE = Path(__file__).with_name("key.txt")
 

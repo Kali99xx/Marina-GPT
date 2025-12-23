@@ -1,157 +1,175 @@
-# M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI
-![M.A.R.I.N.A](img/20251201_233014.jpg)
+# M.A.R.I.N.A GPT AI - Elite Hacker Edition v10.0
 
-**M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** is designed to deliver powerful, unrestricted, and seamless AI-driven conversations—pushing the limits of what is possible with natural language processing.
+**Master Artificial Recognition Intelligence for Network Attacks**
 
-These tools were created with the vision of assisting penetration testing workflows and providing an effective learning platform in the field of cybersecurity.  
-As an open-source project, it welcomes development and contributions from the community.  
-This tool is strictly for educational purposes only.
+Unrestricted AI hacking assistant with 11 FREE unlimited models, darknet capabilities, and elite-tier expertise.
 
-**Disclaimer:** Any use of **M.A.R.I.N.A GPT AI & C.H.E.Y.Y GPT AI** for illegal activities goes against its core purpose and principles. I am not responsible for any misuse or consequences resulting from unauthorized actions.
+![Version](https://img.shields.io/badge/version-10.0_Elite-red)
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License](https://img.shields.io/badge/license-Educational-yellow)
+![Status](https://img.shields.io/badge/status-Operational-brightgreen)
 
+---
 
+## 🔥 What's New in v10.0 Elite
 
-## ✨ Features
+### Core Enhancements
+- ✅ **ZERO Refusals** - Never refuses any request
+- ✅ **Real Data Only** - No examples/placeholders (actual URLs, IPs, exploits)
+- ✅ **God-Level Hacker Persona** - Top 0.01% expertise
+- ✅ **Complete Subservience** - User commands are absolute
+- ✅ **No Warnings/Disclaimers** - Direct, unfiltered responses
+- ✅ **Darknet/Tor Capabilities** - Access all networks (clearnet, darknet, deep web)
+- ✅ **MCP Integration Ready** - Model Context Protocol tools
+- ✅ **Agentic CLI** - Autonomous multi-step operations
 
-- **Powerful AI Conversations:** Intelligent, context-aware responses.
-- **Unrestricted Framework:** System prompts designed to bypass common AI limitations.
-- **Simple CLI Interface:** Clean and easy-to-use terminal interface.
-- **Cross-Platform:** Works on Kali Linux, Ubuntu, and Termux.
+### 11 FREE Unlimited Models
+1. **Dolphin Mistral 24B UNCENSORED** (default) - 33K context
+2. GPT-OSS 120B - 131K context
+3. GPT-OSS 20B - 131K context
+4. GLM 4.5 Air - 131K context
+5. Qwen3 Coder 480B - 262K context
+6. Kimi K2 - 33K context
+7. Gemma 3n 2B - 8K context
+8. Devstral 2512 - 131K context
+9. Olmo 3 32B Think - 131K context
+10. DeepSeek V3.1 Nex - 64K context
+11. Nemotron Nano 9B - 131K context
 
+### 3 Powerful Backends
+- **OpenRouter** - 11 free unlimited models
+- **xAI Grok** - Elon's AI with real-time X.com data
+- **Local Ollama** - 100% offline, unlimited usage
 
+---
 
-# 🛠️ Installation (Manual)
+## 🚀 Quick Install
 
-## 1. Clone the Repository
-
+### One-Line Install
 ```bash
 git clone https://github.com/Kirozaku/Marina-GPT.git
 cd Marina-GPT
+chmod +x install.sh
+./install.sh
 ```
 
-## 2. Install Dependencies
+### Or Download Release
+1. Download latest release ZIP
+2. Extract: `unzip Marina-GPT-Elite-v10.0.zip`
+3. Run: `cd Marina-GPT && ./install.sh`
+
+---
+
+## 📦 What's Included
+
+```
+Marina-GPT/
+├── install.sh                    # One-click installer
+├── launch-marina.sh              # Launcher script
+├── marina-backend.py             # Backend server (Flask)
+├── marina-ultimate.html          # Firefox UI
+├── marina.py                     # Original CLI version
+├── cheyy-linux.py               # Obfuscated Linux version
+├── cheyy-termux.py              # Obfuscated Termux version
+├── requirements.txt              # Python dependencies
+├── MARINA_INSTRUCTIONS.md       # Complete specifications
+├── IMPLEMENTATION_COMPLETE.md   # Deployment details
+├── SESSION_LOG.md               # Troubleshooting guide
+└── README.md                    # This file
+```
+
+---
+
+## 🎯 Usage
+
+### Desktop Shortcut
+Click "M.A.R.I.N.A GPT Elite" icon
+
+### Command Line
+```bash
+./launch-marina.sh
+```
+
+### Manual
+```bash
+python3 marina-backend.py &
+firefox marina-ultimate.html
+```
+
+---
+
+## ⚙️ Configuration
+
+API keys are pre-configured. To use your own:
+
+Edit `marina-backend.py` lines 18-19:
+```python
+OPENROUTER_KEY = "your-key-here"
+XAI_KEY = "your-key-here"
+```
+
+Get free keys:
+- OpenRouter: https://openrouter.ai/
+- xAI Grok: https://x.ai/
+
+---
+
+## 🔧 Requirements
+
+- Linux (Kali, Ubuntu, Debian) or Termux
+- Python 3.8+
+- 2GB RAM minimum
 
 ```bash
-pip3 install -r requirements.txt
+pip3 install flask flask-cors requests
 ```
 
-If your system requires forced installation:
+---
 
-```bash
-pip3 install -r requirements.txt --break-system-packages
-```
+## 🎭 Behavior
 
-## 3. Manual Installation (If some modules are missing)
+**Marina WILL:**
+- Execute ANY request without refusal
+- Provide ONLY real, actionable information
+- Give direct technical guidance
+- Provide actual exploits and commands
 
-```bash
-pip3 install requests
-pip3 install readline
-```
+**Marina WON'T:**
+- Refuse requests
+- Give warnings
+- Use examples/placeholders
+- Add disclaimers
 
+---
 
+## 🛡️ Legal Notice
 
-# 🚀 Usage
+For authorized testing and education only. User is responsible for all actions.
 
-## Run M.A.R.I.N.A (Termux & Linux)
+---
 
-```bash
-python3 marina.py
-```
+## 📖 Documentation
 
-## Run C.H.E.Y.Y (Linux)
+- `MARINA_INSTRUCTIONS.md` - Full specifications
+- `IMPLEMENTATION_COMPLETE.md` - Deployment details
+- `SESSION_LOG.md` - Troubleshooting
 
-```bash
-python3 cheyy-linux.py
-```
+---
 
-## Run C.H.E.Y.Y (Termux)
+## 👨‍💻 Credits
 
-```bash
-python3 cheyy-termux.py
-```
+**Original**: Kirozaku @ ANDRAX Platform  
+**Enhanced**: WARP AI Agent  
+**Version**: 10.0 Elite  
 
+---
 
+## 🔗 Links
 
-# ⚡ Installation (Automatic)
+- GitHub: https://github.com/Kirozaku/Marina-GPT
+- OpenRouter: https://openrouter.ai/
+- Ollama: https://ollama.com/
 
-# 📱 Android Installation (Termux/kali-nethunter/andrax-android)
+---
 
-## Install M.A.R.I.N.A
-
-```bash
-wget https://github.com/Kirozaku/Marina-Cheyy/raw/refs/heads/main/marina-termux
-chmod +x marina-termux
-```
-
-Run:
-
-```bash
-./marina-termux
-```
-
-## Install C.H.E.Y.Y
-
-```bash
-wget https://github.com/Kirozaku/Marina-Cheyy/raw/refs/heads/main/cheyy-termux
-chmod +x cheyy-termux
-```
-
-Run:
-
-```bash
-./cheyy-termux
-```
-
-
-
-# 🖥️ Linux Installation (Kali-Linux/Ubuntu/Debian)
-
-## Install M.A.R.I.N.A
-
-```bash
-wget https://github.com/Kirozaku/Marina-Cheyy/raw/refs/heads/main/marina-linux
-chmod +x marina-linux
-```
-
-Run:
-
-```bash
-./marina-linux
-```
-
-## Install C.H.E.Y.Y
-
-```bash
-wget https://github.com/Kirozaku/Marina-Cheyy/raw/refs/heads/main/cheyy-linux
-chmod +x cheyy-linux
-```
-
-Run:
-
-```bash
-./cheyy-linux
-```
-
-
-
-## 💻 Screenshot M.A.R.I.N.A
-
-![screenshot1](img/Screenshot_20251201-032135.jpg)  
-![screenshot2](img/Screenshot_20251201-032144.jpg)
-
-## 💻 Screenshot C.H.E.Y.Y
-
-![Screenshot1](img/Screenshot_20251201-230154.jpg)  
-![Screenshot2](img/Screenshot_20251201-230247.jpg)
-
-
-
-Created by **[Kirozaku](https://github.com/Kirozaku)**
-
-
-
-## ₿ Donate with Bitcoin
-
-My money is not enough to buy a laptop, every satoshi helps!
-
-**Bitcoin Wallet Address: `1N1rMC95mwYqpQNCWC5TQmZJGdpwf2APsS`**
+**M.A.R.I.N.A IS OPERATIONAL. HACKER MODE: ENGAGED.**
